@@ -1,0 +1,20 @@
+html{
+    padding: .3rem .5rem;
+}
+/*header*/
+.header-background{
+    background-color:plum;
+}
+header h1{
+    text-align: center;
+}
+button{
+    margin-bottom: 1rem;
+}
+
+/*footer*/
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}

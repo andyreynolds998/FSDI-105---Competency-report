@@ -1,0 +1,20 @@
+html{
+    padding: .3rem .5rem;
+}
+#map{ 
+    height: 300px; 
+}
+/*header*/
+.header-background{
+    background-color:plum;
+}
+header h1{
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}

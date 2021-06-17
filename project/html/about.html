@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/about.css">
+  <about class="css"></about>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <div class="header-background">
+      <h1 class="Display-1">The Fashion Pet</h1>
+    </div>
+  </header>
+  <ul class="nav nav-tabs">
+    <nav class="navbar navbar-dark bg-dark">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+      </li>
+    </nav>
+    <nav class="navbar navbar-light" style="background-color:orange;">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </nav>
+    <nav class="navbar navbar-dark bg-dark">
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+    </nav>
+    <nav class="navbar navbar-dark bg-dark">
+      <li class="nav-item">
+        <a class="nav-link" href="register.html" tabindex="-1">Register</a>
+      </li>
+    </nav>
+  </ul>
+  <main>
+      <h2>About</h2>
+      <p>Here at The Fashion Pet, we aim to provide a first class animal grooming service that is second to none. Whatever your pets hygenic needs, we have you covered. Apart from our services in store, we now have a mobile grooming team that's open for booking. </p>
+      <p>Our website and software are being written and maintained by Andrew Reynolds, a 23 year old veteran who's currently attending San Diego Global Knowledge University.</p>
+  </main>
+  <div class="contact-container">
+    <h3>Questions or concerns? Reach out to us.</h3>
+    <form action="#">
+      <input type="text" class="form-control" name="userName" id="userName" placeholder="Name"> <br>
+      <input type="text" class="form-control" name="userEmail" id="userEmail" placeholder="Email"> <br>
+      <input type="text" class="form-control" name="userMessage" id="userMessage" placeholder="Message"> <br>
+      <button id="submit-btn" class="btn btn-primary btn-sm" onclick="logMessage();">Submit message</button>
+    </form>
+  </div>
+  
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="./js/about.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+<div class="footer">
+  <p><small>&copy; 2021 by Andrew Reynolds. All rights reserved</small></p>
+</div>
+
+</html>

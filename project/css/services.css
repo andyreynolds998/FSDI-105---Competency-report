@@ -1,0 +1,78 @@
+html{
+    padding: .3rem .5rem;
+}
+.hidden{
+    display: none;
+}
+/*header*/
+.header-background{
+    background-color:plum;
+}
+header h1{
+    text-align: center;
+}
+.services-container{
+    text-align: center;
+}
+.intro{
+    font-size: 25px;
+    margin-top: 2rem;
+}
+/*footer*/
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+/*service containers*/
+#hair-service{
+    display: flex;
+    flex-direction: row;
+}
+#nails-service{
+    display: flex;
+    flex-direction: row;
+}
+#grooming-service{
+    display: flex;
+    flex-direction: row;
+}
+#full-service{
+    display: flex;
+    flex-direction: row;
+}
+/*service nav link container*/
+#InfoContainer{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-top: 1px dashed black;
+    width: 40%;
+}
+#InfoContainer h3{
+    font-weight: bold;
+}
+#InfoContainer p{
+    font-size: 18px;
+}
+#PC-container{
+    background-color: plum;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    
+}
+#str-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#PhotoContainer{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+#pic{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
